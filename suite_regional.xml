@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test">
+    <classes>
+      <class name="com.comcast.crm.basetest.contactTest"/>
+      <methods>
+      <include name="createContactWithOrgTest"></include>
+      </methods>
+     
+      <class name="com.comcast.crm.basetest.orgTest"/>
+      <methods>
+      <include name="createOrgTest"></include>
+      </methods>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
