@@ -23,5 +23,9 @@ public WebElement getProductEdit() {
 >>>>>>> branch 'master' of https://github.com/archanakshettyudupi/Testproj2.git
 public WebElement getCreateNewProductBtn() {
 	return createNewProductBtn;
+	
+	
+	
+	
 }
 }
