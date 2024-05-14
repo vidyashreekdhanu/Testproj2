@@ -12,6 +12,11 @@ public class ContactPage {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
+	private void sysout() {
+		// TODO Auto-sysoutgenerated method stub
+		System.out.println("hi");
+
+	}
 	@FindBy(className = "dvHeaderText")
 	private WebElement headerMsg;
 	public WebElement getHeaderMsg() {
