@@ -50,7 +50,7 @@ public class CreateContactTest extends BaseclassTest {
 				//enter all the details& create new organization
 				CreatingNewContactPage cnp=new CreatingNewContactPage(driver);
 				cnp.createContact(lastName);
-				
+				System.out.println("last");
 				//verify lastname ExpectedResult
 				/*String actLastName = driver.findElement(By.id("dtlview_Last Name")).getText();
 				if( actLastName.contains(lastName))
